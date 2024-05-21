@@ -1,0 +1,48 @@
+@import 'normalize.css';
+@import 'settings/fonts';
+@import 'settings/colors';
+
+.three-columns {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  max-width: 100%;
+
+  .column {
+    flex: 1;
+
+    background: $secondary2-color;
+    padding: 60px;
+
+    p {
+      text-align: center;
+      color: $secondary1-color;
+      font-weight: 100;
+      font-size: 4rem;
+      margin-bottom: 10px;
+    }
+
+    h4 {
+      text-align: center;
+      font-weight: 200;
+      font-size: 1em;
+      margin-bottom: 10px;
+    }
+    section {
+      font-family: $font-alt;
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 1.5;
+    }
+
+
+  }
+}
+
+
+@media (max-width: 768px) {
+  .three-columns {
+    flex-direction: column;
+  }
+}
+

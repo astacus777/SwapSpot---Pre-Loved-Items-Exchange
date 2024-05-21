@@ -1,0 +1,17 @@
+.header-container {
+  display: flex;
+}
+
+.image-container {
+  background-image: url('../assets/Home-Hero-Image.jpg');
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-container, .button-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

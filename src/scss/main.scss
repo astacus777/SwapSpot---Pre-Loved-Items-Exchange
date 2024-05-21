@@ -1,0 +1,13 @@
+
+@import 'normalize.css';
+@import 'settings/fonts';
+@import 'settings/colors';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-base;
+}
