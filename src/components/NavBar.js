@@ -15,11 +15,21 @@ const NavBar = () => {
                 </RouterLink>
             </div>
             <div className="bottom-nav-container">
-                <button>Start</button>
-                <button>O co Chodzi?</button>
-                <button>O nas</button>
-                <button>Fundacja i organizacje</button>
-                <button>Kontakt</button>
+                <ScrollLink to="start" smooth={true} duration={500}>
+                   <button>Start</button>
+                </ScrollLink>
+                <ScrollLink to="what-we-do" smooth={true} duration={500}>
+                  <button>O co Chodzi?</button>
+                </ScrollLink>
+                <ScrollLink to="about-us" smooth={true} duration={500}>
+                  <button>O nas</button>
+                </ScrollLink>
+                <ScrollLink to="organisation" smooth={true} duration={500}>
+                  <button>Fundacja i organizacje</button>
+                </ScrollLink>
+                <ScrollLink to="contact" smooth={true} duration={500}>
+                  <button>Kontakt</button>
+                </ScrollLink>
             </div>
         </div>
     )
