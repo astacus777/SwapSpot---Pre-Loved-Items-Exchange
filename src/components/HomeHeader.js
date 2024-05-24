@@ -18,7 +18,7 @@ const HomeHeader = () => {
                     <p> Oddaj niechciane rzeczy w zaufane ręce</p>
                 </div>
                     <div className="home-header-3">
-                        <img src={imageSrc} alt="Description of image" />
+                        <img src={imageSrc} alt="Decoration" />
                     </div>
                     <div className="home-header-4">
                         <TwoButtons />
