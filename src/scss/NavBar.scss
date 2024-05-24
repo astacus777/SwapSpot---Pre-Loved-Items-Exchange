@@ -1,0 +1,46 @@
+@import 'settings/fonts';
+@import 'settings/colors';
+
+.main-nav-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.top-nav-container {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.bottom-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+button {
+  border: solid 1px white;
+  padding: 5px;
+  font-size: 0.8rem;
+  background: none;
+  cursor: pointer;
+
+
+}
+button:hover {
+  border: solid 1px $secondary2-color;
+}
+.big-button {
+  padding: 10px;
+  font-size: 1.8rem;
+  color: $secondary3-color;
+  text-transform: uppercase;
+  border: solid 1px black;
+}
+.big-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10vh;
+  gap: 20px;
+}
