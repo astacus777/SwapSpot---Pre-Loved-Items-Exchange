@@ -1,13 +1,15 @@
 import React from "react";
 import HomeHeader from "./HomeHeader";
 import HomeThreeColumns from "./HomeThreeColumns";
+import FourSimpleSteps from "./FourSimpleSteps";
 
 const Home = () => {
     return (
         <div>
             <HomeHeader />
             <HomeThreeColumns />
-            {/* Dodaj inne sekcje komponentu Home */}
+            <FourSimpleSteps />;
+            {/*  inne komponenty*/}
         </div>
     )
 }
