@@ -18,7 +18,7 @@ const NavBar = () => {
                 <ScrollLink to="start" smooth={true} duration={500}>
                    <button>Start</button>
                 </ScrollLink>
-                <ScrollLink to="what-we-do" smooth={true} duration={500}>
+                <ScrollLink to="how-it-works" smooth={true} duration={500}>
                   <button>O co Chodzi?</button>
                 </ScrollLink>
                 <ScrollLink to="about-us" smooth={true} duration={500}>
