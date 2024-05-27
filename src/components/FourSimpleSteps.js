@@ -9,7 +9,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 const FourSimpleSteps = () => {
     return (
-        <div className="simple-steps-container">
+        <div className="simple-steps-container" id="how-it-works">
             <div className="steps-header-container">
                 <p className="steps-header">Wystarczą 4 proste kroki</p>
                 <img className="decoration-img" src={imageSrc} alt="decoration" />
