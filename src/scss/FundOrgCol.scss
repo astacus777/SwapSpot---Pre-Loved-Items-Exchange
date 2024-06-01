@@ -1,0 +1,107 @@
+@import 'settings/fonts';
+@import 'settings/colors';
+
+.fund-container {
+  margin-top: 4%;
+  text-align: center;
+  color: $secondary4-color;
+
+  .found-text-container {
+    width: 70%;
+    justify-content: center;
+    .fund-content-para {
+      text-align: center;
+    }
+  }
+
+  .fund-header {
+    font: normal normal normal 38px/55px Open Sans;
+  }
+
+  .decoration-img {
+    padding: 3%;
+  }
+
+  .fund-three-btn {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .fund-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      border: 0.75px solid transparent;
+      font-size: 1rem;
+      width: 170px;
+      height: 57px;
+
+      &:hover {
+        border: 0.75px solid $secondary4-color;
+      }
+
+      &.active {
+        border: 0.75px solid $secondary4-color;
+      }
+    }
+  }
+  .pagination {
+    height: 5vh;
+  }
+  .pagination-btn.active {
+    border: 1px solid $secondary4-color;
+  }
+  .fund-content-text {
+    font: normal normal normal 22px/30px Open Sans;
+    width: 50%;
+  }
+
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.fund-content-info {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.additional-class {
+  border-bottom: 1px solid black;
+
+}
+
+.fund-content {
+  width: 80%;
+  display: inline-block;
+}
+.fund-content-list {
+  text-align: left;
+  width: 50%;
+  .right-aligned p:first-of-type {
+    font: normal normal 300 26px/31px Merriweather;
+    letter-spacing: 0;
+    color: #3C3C3C;
+    opacity: 1;
+  }
+  .right-aligned p:last-of-type {
+    font: italic normal 300 18px/22px Merriweather;
+    letter-spacing: 0;
+    color: #3C3C3C;
+    opacity: 1;
+  }
+}
+.fund-content-details {
+  width: 50%;
+  text-align: right;
+}
