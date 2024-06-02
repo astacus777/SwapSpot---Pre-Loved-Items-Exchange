@@ -27,7 +27,7 @@ const FundOrgCol = () => {
 
     const text1= "W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.";
     const text2 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.";
-    const text3 = " dddddddddddddddddddddddddddddddd  ddddddddddddddddddddddddddd  ddddddddddddddddddddddddd";
+    const text3 = " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.";
 
     const data = getDataForCurrentView();
     const indexOfLastItem = currentPage * itemsPerPage;

@@ -69,11 +69,12 @@
   height: 120px;
   box-sizing: border-box;
   display: flex;
+  font-size: 0.9rem;
 }
 .contact-us-input:focus {
   border: none;
   border-bottom: 2px solid $secondary4-color;
-  outline: none; /* Usuwa domyślny efekt focus */
+  outline: none;
 }
 .contact-us-btn {
   border: 1px solid black;
@@ -94,11 +95,26 @@
   bottom: 0;
   left: 0;
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.contact-us-copy {
   display: flex;
   justify-content: center;
-  gap: 200px;
+  align-items: center;
 }
-.insta-decoration-img {
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 142px;
+}
+.social-decoration-img {
   width: 30px;
   height: 30px;
+  padding-left: 20px;
+
 }
+
+

@@ -6,7 +6,7 @@ import faceIcon from "../assets/Facebook.svg"
 const ContactUs = () => {
     return (
         <div >
-            <div className="contact-us-container">
+            <div className="contact-us-container" id="contact-us">
             <div className="contact-us-form">
 
                     <p className="contact-us-header">Skontaktuj się z nami</p>
@@ -33,10 +33,16 @@ const ContactUs = () => {
                 </div>
 
             </div>
+
                 <div className="contact-us-footer">
+                    <div></div>
+                    <div className="contact-us-copy">
                     <p>Copyright by Coders Lab</p>
-                    <img className="insta-decoration-img" src={faceIcon} alt="decoration" />
-                    <img className="insta-decoration-img" src={instaIcon} alt="decoration" />
+                    </div>
+                    <div className="social-icons">
+                    <img className="social-decoration-img" src={faceIcon} alt="decoration" />
+                    <img className="social-decoration-img" src={instaIcon} alt="decoration" />
+                    </div>
                 </div>
             </div>
 

@@ -27,7 +27,7 @@ const NavBar = () => {
                 <ScrollLink to="fund-org-col" smooth={true} duration={500}>
                   <button>Fundacja i organizacje</button>
                 </ScrollLink>
-                <ScrollLink to="contact" smooth={true} duration={500}>
+                <ScrollLink to="contact-us" smooth={true} duration={500}>
                   <button>Kontakt</button>
                 </ScrollLink>
             </div>
