@@ -1,0 +1,104 @@
+@import 'settings/fonts';
+@import 'settings/colors';
+
+.contact-us-container {
+  margin-top: 80px;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: right;
+}
+
+.contact-us-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/Background-Contact-Form.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  z-index: 1;
+
+}
+
+.contact-us-form {
+  padding-top: 100px;
+  position: relative;
+  z-index: 2;
+  margin-right: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us-header{
+  text-align: center;
+  font: normal normal normal 38px/55px Open Sans;
+  letter-spacing: -0.76px;
+  color: $secondary4-color;
+  opacity: 1;
+}
+.contact-us-name {
+  display: flex;
+  gap: 5px;
+}
+.contact-us-name-column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font: normal normal 600 16px/85px Open Sans;
+  letter-spacing: 0;
+  color: $secondary4-color;
+  opacity: 1;
+}
+.contact-us-input {
+  text-align: left;
+  font: normal normal normal 18px/24px Open Sans;
+  letter-spacing: 0;
+  opacity: 1;
+  color: $secondary3-color;
+  border: none;
+  border-bottom: 2px solid $secondary3-color;
+}
+.contact-us-textarea {
+  height: 120px;
+  box-sizing: border-box;
+  display: flex;
+}
+.contact-us-input:focus {
+  border: none;
+  border-bottom: 2px solid $secondary4-color;
+  outline: none; /* Usuwa domyślny efekt focus */
+}
+.contact-us-btn {
+  border: 1px solid black;
+  font: normal normal 300 18px/32px Open Sans;
+  letter-spacing: 0;
+  color: #000000;
+  opacity: 1;
+  width: 150px;
+  height: 50px;
+}
+.contact-us-btn-container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.contact-us-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+.insta-decoration-img {
+  width: 30px;
+  height: 30px;
+}
