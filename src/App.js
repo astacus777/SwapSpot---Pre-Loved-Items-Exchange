@@ -3,12 +3,10 @@ import Home from "./components/Home";
 import {
     HashRouter,
     Route,
-    Routes,
-    Link,
-    NavLink,
-    Outlet
+    Routes
 } from 'react-router-dom';
 import LoginReg from "./components/LoginReg";
+import Register from "./components/Register";
 
 const App = () => {
     return (
@@ -16,6 +14,7 @@ const App = () => {
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route path="/logowanie" element={<LoginReg />} />
+                    <Route path="/rejestracja" element={<Register />} />
                 </Routes>
             </HashRouter>
     )

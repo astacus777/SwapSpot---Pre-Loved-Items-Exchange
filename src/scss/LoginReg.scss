@@ -26,6 +26,15 @@ img {
   align-items: center;
   justify-content: center;
 }
+.insert-fields-2 {
+  background-color:  #F0F1F1;
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .login-label {
   padding: 10px;
 }
@@ -51,7 +60,6 @@ img {
 .login-btn:hover {
   border: 1px solid black;
 }
-
 
 .nav-bar-container {
   right: 5vw;
