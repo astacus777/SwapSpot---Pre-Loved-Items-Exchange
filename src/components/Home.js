@@ -6,6 +6,7 @@ import AboutUs from "./AboutUs"
 import FundOrgCol from "./FundOrgCol";
 import ContactUs from "./ContactUs";
 
+
 const Home = () => {
     return (
         <div>
